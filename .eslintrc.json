@@ -5,7 +5,7 @@
     {
       "files": ["*.ts"],
       "parserOptions": {
-        "project": ["tsconfig.json"],
+        "project": ["Booking/tsconfig.json"],
         "createDefaultProgram": true
       },
       "extends": [
