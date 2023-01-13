@@ -5,12 +5,12 @@ import { Place } from './place.model';
   providedIn: 'root'
 })
 export class PlacesService {
-  private _places: Place[] = [
+  public _places: Place[] = [
     new Place
     ('p1',
      'Manhatta Mansion',
      'In the heart of the New York City',
-     'https://www.travelandleisure.com/thmb/91pb8LbDAUwUN_11wATYjx5oF8Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/new-york-city-evening-NYCTG0221-52492d6ccab44f328a1c89f41ac02aea.jpg', 149.99),
+     'https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg1MzU3MDgyMzM1/new-york-city-3.jpg', 149.99),
      new Place
     ('p2',
      'L\'Amour Tourjours',
@@ -21,7 +21,7 @@ export class PlacesService {
     ('p3',
      'The Foggy Place',
      'Not your average city trip',
-     'https://cdn.sortiraparis.com/images/1001/83517/753564-visuel-paris-tour-eiffel-rue.jpg',
+     'https://images.squarespace-cdn.com/content/v1/582a9ec3d2b85756e36fdf02/1566581217922-TTOIQI6CGDDJV4K9Y91P/IMG_4378-3jpg.jpg?format=2500w',
       99.99),
   ];
 
